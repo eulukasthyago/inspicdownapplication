@@ -1,0 +1,26 @@
+{
+    "expo": {
+        "name": "Inspicdown",
+        "slug": "inspicdown",
+        "platforms": ["android"],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "android": {
+            "package": "com.webcolmeia.inspicdown",
+            "versionCode": 1.0,
+            "config": {
+                "googleMobileAdsAppId": "ca-app-pub-7688282554627562~2122104725"
+            }
+        }
+    }
+}
